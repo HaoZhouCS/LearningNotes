@@ -1,0 +1,7 @@
+﻿git 推送本地文件到远程服务器：
+
+1.首先在需要推送的文件所在目录下打开 git bash，执行 git init 命令。
+2.在github上新建repository。
+3.git bash 上执行 git remote add origin https://github.com/HaoZhouCS/test.git 命令将本地仓库关联到新建的repository上。
+4.打开sourceTree，选择 Add a repository ，打开需要推送的文件所在目录。
+5.利用sourceTree推送文件。
