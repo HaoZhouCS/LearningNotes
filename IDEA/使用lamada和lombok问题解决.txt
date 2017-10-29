@@ -1,0 +1,11 @@
+使用lamada表达式和lombok问题解决：
+
+问题一：提示 java -source 1.5 不支持 lamada 表达式
+解决方法：
+1.File->Settings->Build,Execution,Deployment->Compiler->Java Compiler->Project bytecode version 改为 1.8，相应的 Modele->Targetbytecode version 改为 1.8
+2.File->Project Structure->Project Settings->Project->Project language level 改为 8 - Lamadas
+  File->Project Structure->Project Settings->Module->Project language level 改为 8 - Lamadas
+
+问题二：安装了lombok插件以及正确导入了lombok库之后依然提示找不到set函数
+解决方法：
+1.File->Settings->Build,Execution,Deployment->Compiler->Annotation Processors 在 Enable annotation processing选项打对号
